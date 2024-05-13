@@ -1,0 +1,516 @@
+/*-------------------------ALL----------------- */
+body{
+    background-color: #F7F7F7;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/*------------------HEADER------------------------------*/
+
+#header nav .container{
+    background-color: #292929;
+}
+
+.navbar-dark{
+    background-color: #292929;
+
+}
+
+.navbar-brand{
+    display: flex;
+} 
+
+.nav-bar-color{
+    color: #EBB705;
+    margin: 0;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.form__search{
+    margin-bottom: 0;
+}
+
+/*--------------------MAINPAGE--------------------------*/
+
+#main{
+    background-color: #F7F7F7;
+
+}
+
+.first__about-card{
+    max-width: 80%; 
+    margin: auto;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.first__about-conainer{
+
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 99%;
+}
+
+.first__about-body{
+    max-width: 65%;
+}
+
+.first__about-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.first__about-text{
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.first__about-img{
+    max-width: 200px;
+    max-height: 320px;
+}
+
+
+/* Второй блок с информацией */
+
+.second__about-card-rigth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second__about-conainer{
+    width: 77%; 
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second__about-card-left{
+    background-color: #F0F6FE;
+    border-radius: 15px;
+    padding: 30px 50px 50px 50px;
+    max-width: 570px;
+
+}
+
+.second__about-body{
+    max-width: 530px;
+}
+
+
+.second__about-title-left{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.second__about-text-left{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.second__about-card-lef-list{
+    font-size: 18px;
+    
+    padding: 0 0 0 15px;
+    list-style:decimal;
+}
+
+.second__about-card-lef-list-element{
+    margin-bottom: 10px
+
+}
+
+/* ВТОРОЙ БЛОК С ИНФОРМАЦИЕЙ ПЕРВАЯ КАРТОЧКА СПРАВА */
+
+.second__about-card-rigth{
+    max-width: 380px;
+    border-radius: 15px;
+
+}
+
+.right__first-card{
+    background-color: #FEF4E2;
+}
+
+.second__about-body-right-first{
+    padding: 30px;
+}
+
+.second__about-title-right-first{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.second__about-text-right-first{
+    font-size: 17px;
+}
+
+/* ВТОРОЙ БЛОК С ИНФОРМАЦИЕЙ ВТОРАЯ КАРТОЧКА СПРАВА */
+
+
+
+.right__second-card{
+    background-color: #F5EFFE;
+}
+
+.second__about-body-right-second{
+    padding: 30px;
+}
+
+.second__about-title-right-second{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.second__about-text-right-second{
+    font-size: 17px;
+}
+
+
+/*--------------------PROFILE---------------- */
+
+
+.profile__card__conainer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.profile__card{
+    justify-content: space-between;
+    max-width: 44em;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__left{
+    max-width: 220px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.card__right{
+    /* margin-left: 100px; */
+    /* justify-content: space-around;
+    display: flex;
+    flex-direction: column; */
+}
+
+.profile__nickname{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.profile__info{
+    margin-top: 70px;
+}
+
+.info__item{
+    display: flex;
+    max-width: 480px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info__title{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.info__value{
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.status__change{
+    margin-left: 10px;
+
+}
+
+
+/*--------------------REVIEWS-----------------------------*/
+
+
+.profile__review__conainer{
+    max-width: 80em;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile__review{
+    padding: 50px;
+}
+
+.profile__review .riview__top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review__main{
+    max-width: 900px;
+}
+
+.book__title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.author__name{
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.review__container{
+    margin-top: 15px;
+    background-color: #EBF7EB;
+    border-radius: 15px;
+}
+
+.review{
+    padding: 35px;
+}
+
+.review__top{
+    display: flex;
+    align-items: center;
+}
+
+.review__author{
+    font-size: 20px;
+}
+
+.review__date{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+.review__status{
+    margin-top: 10px;
+    display: flex;
+}
+
+.info__title{
+    font-size: 20px;
+}
+
+.info__value{
+    margin-left: 15px;
+    font-size: 24px;
+
+}
+
+.review__status .status__title{
+    font-size: 22px;
+}
+
+.review__status .status__value{
+    font-size: 22px;
+    color: #2619A3;
+    margin-left: 10px;
+}
+
+.review__value{
+    margin-top: 35px;
+}
+
+/*!----------------МОЖНО ВЫНЕСТИ В ОБЩИЕ СТИЛИ---------  */
+.link:hover{
+    cursor: pointer;
+}
+
+.link{
+    color: #2E3DAB;
+    text-decoration: none;
+}
+
+/*-----------------FOOTER--------------------*/
+
+#footer{
+    background-color: #F0F0F0;
+}
+@media (max-width: 648px) {
+    .first__about-title{
+        text-align: center;
+        font-size: 5vw;
+
+    }
+
+    .first__about-text{
+        font-size: 4vw;
+
+    }
+
+    .info__title{
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .status__title, .status__value{
+        font-size: 5vw;
+        
+    }
+    
+    .review__container{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .second__about-title-left, .second__about-title-right-first, .second__about-title-right-second{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 900px) {
+  
+    .profile__nickname{
+        text-align: center;
+    }
+
+    .profile__card{
+        justify-content: center;
+        max-width: 40em;
+    }
+    .profile__info{
+        margin-top: 20px;
+    }
+
+    .info__title{
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .info__item{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .info__value{
+        margin-left: 0;
+    }
+
+    .first__about-img{
+        max-width: 10em;
+        max-height: 20em;
+    }
+
+   
+
+
+
+}
+
+@media (max-width: 1199px) {
+    .first__about-body{
+        max-width: 100%;
+    }
+
+    .first__about-conainer{
+        justify-content: center
+    }
+   
+
+    .first__about-card{
+        max-width: 100%;
+    }
+
+    .first__about-title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1399px) {
+    .review__photo, .review__main{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second__about-conainer, .second__about-card-rigth-container{
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap; 
+   }
+
+   .second__about-card-left, .second__about-body-right-second, .second__about-body-right-first, .second__about-text-left{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.second__about-card-rigth{
+    margin-top: 25px;
+}
+
+    .book__title{
+        text-align: center;
+        margin-top: 10px
+    }
+
+    .author__name{
+        text-align: center;
+
+    }
+
+    .review__status{
+        justify-content: center
+    }
+
+    .profile__review__conainer{
+        max-width: 60em;
+        border-radius: 15px;
+        background-color: #fff;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  
+
+    
+
+    /* .first__about-img{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }  */
+
+    
+
+};
+
+
+
